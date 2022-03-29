@@ -1,18 +1,28 @@
 .navbar {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
+  top: 0;
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #23252a;
+  background-color: #fff;
   border-bottom: 3px solid #0be779;
   pointer-events: fill;
+  z-index: 2000;
 }
 .navbar a {
   cursor: pointer;
   font-weight: 600;
+  color: rgba(0,0,0,.7);
 }
+
+.navbar a.active {
+  cursor: pointer;
+  font-weight: 600;
+  color: green;
+}
+
 .navlink-wrapper {
   width: 20%;
 }

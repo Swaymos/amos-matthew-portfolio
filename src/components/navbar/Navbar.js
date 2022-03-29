@@ -19,17 +19,17 @@ const Navbar = () => {
       <div className="navlinks">
         <div className="navlink-wrapper">
           <Link to="home" spy={true} smooth={true} duration={500}>
-            HOME
+            Home
           </Link>
         </div>
         <div className="navlink-wrapper">
           <Link to="about" spy={true} smooth={true} duration={500}>
-            ABOUT
+            About
           </Link>
         </div>
         <div className="navlink-wrapper">
           <Link to="experience" spy={true} smooth={true} duration={500}>
-            EXPERIENCE
+            Projects
           </Link>
         </div>
         {/* <div className="navlink-wrapper">
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div> */}
         <div className="navlink-wrapper">
           <Link to="contact" spy={true} smooth={true} duration={500}>
-            CONTACT
+            Contact
           </Link>
         </div>
       </div>
