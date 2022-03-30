@@ -7,7 +7,7 @@ import experienceData from '../../data/experience.json'
 
 const Experience = () => {
   return (
-    <Section title="Experience">
+    <Section title="Projects I've Worked On">
       <div className="experience-content">
         <ul className="experience-list">
           {experienceData.experience.reverse().map((exp) => (

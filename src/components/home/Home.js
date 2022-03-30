@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Home.css'
 import Fade from 'react-reveal/Fade'
-import { Bounce } from 'react-reveal'
 import { Link } from 'react-scroll'
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect'
@@ -9,6 +8,7 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
 import config from '../../config'
 import profile from '../../images/matt.png'
+import Carousel from '../carousel/carousel'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -48,17 +48,6 @@ const Home = () => {
                 }}
               />
             </h1>
-            <Bounce cascade>
-              {/* <div className="links">
-                <a
-                  href="https://www.linkedin.com/in/mjigalin/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={linkedin} alt="Linkedin Logo" width="50px" />
-                </a>
-              </div> */}
-            </Bounce>
             <div className="scroll-down">
               <Link
                 activeClass="active"
@@ -76,6 +65,7 @@ const Home = () => {
             </div>
           </Fade>
         </div>
+        <Carousel/>
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ const Project = ({ project, type }) => {
       >
         <div className="project-card-wrapper">
           <div className="project-card">
-            <div className="project-name">
+            {/* <div className="project-name">
               <svg
                 aria-hidden="true"
                 className="octicon"
@@ -28,7 +28,7 @@ const Project = ({ project, type }) => {
                 ></path>
               </svg>
               <h2 className="project-title">{project.name}</h2>
-            </div>
+            </div> */}
             {/* <div style={{ display: 'flex' }}>
               <div> */}
             <p className="project-description">{project.description}</p>

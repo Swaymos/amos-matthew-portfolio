@@ -19,15 +19,15 @@ const ExperienceCard = ({ experience }) => {
             ></div>
             <h2>{company}</h2>
             <div className="image-wrapper">
-              <div
+              {/* <div
                 className="experience-bg logo-bg"
                 style={{
                   background: experience.colourSecondary
                     ? experience.colourSecondary
                     : experience.colourPrimary,
                 }}
-              ></div>
-              <img
+              ></div> */}
+              {/* <img
                 className="company-logo"
                 src={require(`../../images/logos/${company
                   .replace(/ /g, '')
@@ -40,7 +40,7 @@ const ExperienceCard = ({ experience }) => {
                       }
                     : { width: `${experience.logowidth}%` }
                 }
-              />
+              /> */}
             </div>
           </div>
           <div className="experience-card-bottom">

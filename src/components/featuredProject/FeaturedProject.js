@@ -17,7 +17,7 @@ const FeaturedProject = ({ name, link, description, colour, languages }) => {
               background: colour,
             }}
           ></div>
-          <div className="featured-project-top">
+          {/* <div className="featured-project-top">
             <img
               className="featured-project-image"
               src={require(`../../images/logos/${name
@@ -25,10 +25,10 @@ const FeaturedProject = ({ name, link, description, colour, languages }) => {
                 .toLowerCase()}.png`)}
               alt={`${name}-logo`}
             />
-          </div>
+          </div> */}
           <p>{description}</p>
           <div className="project-info">
-            <div className="project-info-left">
+            {/* <div className="project-info-left">
               {languages.map((language) => (
                 <div key={`${name}-${language.name}`} className="language">
                   <div
@@ -38,7 +38,7 @@ const FeaturedProject = ({ name, link, description, colour, languages }) => {
                   <p className="language-name">{language.name}</p>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

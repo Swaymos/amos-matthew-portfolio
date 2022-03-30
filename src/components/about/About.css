@@ -51,14 +51,14 @@
   display: flex;
   background-color: #3e4555;
   border-radius: 2px;
-  height: 30px;
-  margin-bottom: 10px;
+  height: 40px;
+  margin-bottom: 30px;
 }
 .skill-bar {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  height: 30px;
+  height: 40px;
   background-color: #0be779;
   border-radius: 2px 0px 0px 2px;
 }
@@ -74,9 +74,10 @@
     align-items: center;
     border-radius: 2px 0px 0px 2px;
     left: 0;
-    width: 80px;
-    height: 30px;
-    font-size: 12px;
+    padding: 0px 10px;
+    width: auto;
+    height: 100%;
+    font-size: 16px;
     background-color: #39b175;
     font-weight: 600;
     color: white;
@@ -121,8 +122,8 @@
     align-items: center;
     border-radius: 2px 0px 0px 2px;
     left: 0;
-    width: 65px;
-    height: 30px;
+    width: auto;
+    height: auto;
     font-size: 10px;
     background-color: #39b175;
     font-weight: 600;

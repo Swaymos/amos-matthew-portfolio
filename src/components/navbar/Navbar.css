@@ -20,7 +20,7 @@
 .navbar a.active {
   cursor: pointer;
   font-weight: 600;
-  color: green;
+  color: rgb(11, 231, 121);
 }
 
 .navlink-wrapper {
